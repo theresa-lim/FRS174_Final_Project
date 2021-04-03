@@ -1,0 +1,24 @@
+.flex {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.parent {
+  display: flex;
+  position: relative;
+  top: 0;
+  left: 100px;
+}
+.desk {
+  background-image: url("1x/Desk_BackgroundMaster.png");
+  background-size: contain;
+  border-width: thick;
+  border-color: black;
+}
+.overlay {
+  padding-left: -1000 px;
+}
