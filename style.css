@@ -14,11 +14,24 @@
   left: 100px;
 }
 .desk {
-  background-image: url("1x/Desk_BackgroundMaster.png");
+  /* background-image: url("SVG/Desk_Background_Master_1.svg"); */
   background-size: contain;
-  border-width: thick;
-  border-color: black;
+  background-position: center;
 }
 .overlay {
   padding-left: -1000 px;
 }
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #6c757d;
+}
+
+#div {
+  #outline-width: thin;
+  #outline-color: black;
+  #outline-style: solid;
+#}
