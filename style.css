@@ -7,19 +7,13 @@
   align-content: center;
 }
 
-.parent {
-  display: flex;
-  position: relative;
-  top: 0;
-  left: 100px;
+.desks {
+  padding-left: 100px;
+  padding-right: 100px;
 }
-.desk {
-  /* background-image: url("SVG/Desk_Background_Master_1.svg"); */
-  background-size: contain;
-  background-position: center;
-}
-.overlay {
-  padding-left: -1000 px;
+
+img {
+  width: auto;
 }
 
 a {
@@ -30,8 +24,9 @@ a:hover {
   color: #6c757d;
 }
 
-#div {
-  #outline-width: thin;
-  #outline-color: black;
-  #outline-style: solid;
-#}
+/*
+div {
+  outline-width: thin;
+  outline-color: black;
+  outline-style: solid;
+} */
