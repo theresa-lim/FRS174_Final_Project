@@ -1,19 +1,124 @@
-.flex {
-  display: flex;
-  flex-direction: row;
-
-  justify-content: space-around;
-  align-items: center;
-  align-content: center;
+.row {
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 
-.desks {
-  padding-left: 100px;
-  padding-right: 100px;
+.header {
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
-img {
-  width: auto;
+.about {
+  font-size: 40px;
+  /*text-decoration: underline; */
+}
+
+.desk {
+  width: 500px;
+  height: 150px;
+  transition: transform 300ms;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.desk:hover {
+  transform: scale(1.35);
+}
+
+.desk_1{
+  background-image: url("Final_Desks/Desk_1.svg");
+}
+
+.desk_1:hover {
+  background-image: url("Final_Desks/Overlay_1.svg");
+}
+
+.desk_2{
+  background-image: url("Final_Desks/Desk_2.svg");
+}
+
+.desk_2:hover {
+  background-image: url("Final_Desks/Overlay_2.svg");
+}
+
+.desk_3{
+  background-image: url("Final_Desks/Desk_3.svg");
+}
+
+.desk_3:hover {
+  background-image: url("Final_Desks/Overlay_3.svg");
+}
+
+.desk_4{
+  background-image: url("Final_Desks/Desk_4.svg");
+}
+
+.desk_4:hover {
+  background-image: url("Final_Desks/Overlay_4.svg");
+}
+
+.desk_5{
+  background-image: url("Final_Desks/Desk_5.svg");
+}
+
+.desk_5:hover {
+  background-image: url("Final_Desks/Overlay_5.svg");
+}
+
+.desk_6{
+  background-image: url("Final_Desks/Desk_6.svg");
+}
+
+.desk_6:hover {
+  background-image: url("Final_Desks/Overlay_6.svg");
+}
+
+.desk_7{
+  background-image: url("Final_Desks/Desk_7.svg");
+}
+
+.desk_7:hover {
+  background-image: url("Final_Desks/Overlay_7.svg");
+}
+
+.desk_8{
+  background-image: url("Final_Desks/Desk_8.svg");
+}
+
+.desk_8:hover {
+  background-image: url("Final_Desks/Overlay_8.svg");
+}
+
+.desk_9{
+  background-image: url("Final_Desks/Desk_9.svg");
+}
+
+.desk_9:hover {
+  background-image: url("Final_Desks/Overlay_9.svg");
+}
+
+.desk_10{
+  background-image: url("Final_Desks/Desk_10.svg");
+}
+
+.desk_10:hover {
+  background-image: url("Final_Desks/Overlay_10.svg");
+}
+
+.desk_11{
+  background-image: url("Final_Desks/Desk_11.svg");
+}
+
+.desk_11:hover {
+  background-image: url("Final_Desks/Overlay_11.svg");
+}
+
+.desk_12{
+  background-image: url("Final_Desks/Desk_12.svg");
+}
+
+.desk_12:hover {
+  background-image: url("Final_Desks/Overlay_12.svg");
 }
 
 a {
@@ -22,6 +127,10 @@ a {
 
 a:hover {
   color: #6c757d;
+}
+
+h1 {
+  font-family: 'Comfortaa', cursive;
 }
 
 /*
