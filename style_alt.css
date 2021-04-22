@@ -1,0 +1,45 @@
+.row {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.header {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.about {
+  font-size: 40px;
+  /*text-decoration: underline; */
+}
+
+.desk {
+  height:400px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.btn-check {
+
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #6c757d;
+}
+
+h1 {
+  font-family: 'Comfortaa', cursive;
+}
+
+/*
+div {
+  outline-width: thin;
+  outline-color: black;
+  outline-style: solid;
+} */
