@@ -1,12 +1,19 @@
 .row {
-  padding-top: 18px;
-  padding-bottom: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.img-sm{
+  display: flex;
+  margin-bottom: 50px;
+  justify-content: center;
 }
 
-.header {
+/* .header {
   padding-top: 0px;
   padding-bottom: 0px;
-}
+  margin-top: 0px;
+  margin-bottom: 0px;
+} */
 
 .about {
   font-size: 40px;
@@ -14,8 +21,8 @@
 }
 
 .desk {
-  width: 500px;
-  height: 150px;
+  width: 350px;
+  height: 160px;
   transition: transform 300ms;
   background-repeat: no-repeat;
   background-position: center;
@@ -23,6 +30,11 @@
 
 .desk:hover {
   transform: scale(1.35);
+}
+
+.big_desk {
+  padding-top: 10px;
+  padding-bottom: 25px;
 }
 
 .desk_1{
@@ -121,8 +133,14 @@
   background-image: url("Final_Desks/Overlay_12.svg");
 }
 
+.description {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
 a {
   color: black;
+  font-family: monospace;
 }
 
 a:hover {
@@ -131,6 +149,42 @@ a:hover {
 
 h1 {
   font-family: 'Comfortaa', cursive;
+  text-align: center;
+}
+
+h5 {
+  font-family: 'Comfortaa', cursive;
+  text-align: center;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  font-family: monospace;
+  font-weight: lighter;
+}
+
+.metadata {
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  text-align: center;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: black thin solid;
+  padding: 15px 15px 15px 15px;
 }
 
 /*
@@ -138,4 +192,4 @@ div {
   outline-width: thin;
   outline-color: black;
   outline-style: solid;
-} */
+}*/
